@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+ <name>TURRIALBA Eruption</name>
+        <open>1</open>
+        <description>Observed and Forecast Ash for TURRIALBA</description>
+<Style id="transRedPoly">
+                <LineStyle>
+                        <width>1.5</width>
+                </LineStyle>
+                <PolyStyle>
+                        <color>7d0000ff</color>
+                </PolyStyle>
+        </Style>
+        <Style id="transYellowPoly">
+                <LineStyle>
+                        <width>1.5</width>
+                </LineStyle>
+                <PolyStyle>
+                        <color>7d00ffff</color>
+                </PolyStyle>
+        </Style>
+        <Style id="transGreenPoly">
+                <LineStyle>
+                        <width>1.5</width>
+                </LineStyle>
+                <PolyStyle>
+                        <color>7f00ff00</color>
+                </PolyStyle>
+        </Style>
+	<Style id="transBluePoly">
+                <LineStyle>
+                        <width>1.5</width>
+                </LineStyle>
+                <PolyStyle>
+                        <color>7dff0000</color>
+                </PolyStyle>
+        </Style>
+	 <Style id="downArrowIcon">
+                <IconStyle>
+                        <Icon>
+                                <href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</href>
+                        </Icon>
+                </IconStyle>
+        </Style>
+
+
+<!--No Ash Detected-->
+</Document>
+</kml>

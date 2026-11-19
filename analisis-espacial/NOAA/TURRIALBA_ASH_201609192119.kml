@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+ <name>TURRIALBA Eruption</name>
+        <open>1</open>
+        <description>Observed and Forecast Ash for TURRIALBA</description>
+<Style id="transRedPoly">
+                <LineStyle>
+                        <width>1.5</width>
+                </LineStyle>
+                <PolyStyle>
+                        <color>7d0000ff</color>
+                </PolyStyle>
+        </Style>
+        <Style id="transYellowPoly">
+                <LineStyle>
+                        <width>1.5</width>
+                </LineStyle>
+                <PolyStyle>
+                        <color>7d00ffff</color>
+                </PolyStyle>
+        </Style>
+        <Style id="transGreenPoly">
+                <LineStyle>
+                        <width>1.5</width>
+                </LineStyle>
+                <PolyStyle>
+                        <color>7f00ff00</color>
+                </PolyStyle>
+        </Style>
+	<Style id="transBluePoly">
+                <LineStyle>
+                        <width>1.5</width>
+                </LineStyle>
+                <PolyStyle>
+                        <color>7dff0000</color>
+                </PolyStyle>
+        </Style>
+	 <Style id="downArrowIcon">
+                <IconStyle>
+                        <Icon>
+                                <href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</href>
+                        </Icon>
+                </IconStyle>
+        </Style>
+
+
+<Folder>
+   <name>Observed Ash</name>
+<description>Valid at: 19/2100Z</description><Placemark>
+   <name>VA to FL200</name>
+<visibility>0</visibility>
+                <styleUrl>#transRedPoly</styleUrl>
+                <Polygon>
+				<extrude>1</extrude>
+                                <tessellate>1</tessellate>
+                                <altitudeMode>absolute</altitudeMode>
+                                <outerBoundaryIs>
+                                        <LinearRing>
+                                        <coordinates>
+ -84.37,9.93,6097.56097560976 -84.28,9.80,6097.56097560976 -84.37,9.75,6097.56097560976 -84.47,9.90,6097.56097560976 -84.37,9.93,6097.56097560976
+                 </coordinates>
+                </LinearRing>
+               </outerBoundaryIs>
+              </Polygon>
+	   </Placemark>
+	</Folder>
+</Document>
+</kml>

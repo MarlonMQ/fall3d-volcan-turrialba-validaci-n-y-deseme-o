@@ -1,0 +1,7 @@
+# Análisis espacial y conversión de datos ERA5 (no instala FALL3D ni Slurm)
+numpy
+xarray
+shapely>=2.0
+netCDF4
+cfgrib
+eccodes

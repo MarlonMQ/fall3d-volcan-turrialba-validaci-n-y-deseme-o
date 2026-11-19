@@ -1,0 +1,30 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Credenciales (no publicar)
+.cdsapirc
+.env
+.env.*
+
+# Entradas/salidas de simulación y meteorología voluminosas
+*.nc
+*.grib
+*.grib2
+*.grb
+*.rst.nc
+*.out
+*.err
+*.log
+*.tar.gz
+
+# Archivos de trabajo y presentación (no forman parte de las métricas)
+analisis-espacial/**/presentation/
+
+# SO/editores
+.DS_Store
+Thumbs.db
+.vscode/
