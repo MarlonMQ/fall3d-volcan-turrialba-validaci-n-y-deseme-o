@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Si utiliza estos materiales, cite el repositorio de software de la investigación."
+type: software
+title: "FALL3D en el volcán Turrialba: concordancia espacial y escalabilidad paralela"
+authors:
+  - family-names: "Murillo Quesada"
+    given-names: "Marlon Esteban"
+repository-code: "https://github.com/MarlonMQ/fall3d-volcan-turrialba-validaci-n-y-deseme-o"
+url: "https://github.com/MarlonMQ/fall3d-volcan-turrialba-validaci-n-y-deseme-o"
+abstract: "Scripts de preparación y ejecución MPI de FALL3D, configuraciones de malla, procesamiento ERA5, análisis espacial con polígonos del Washington VAAC y tablas de resultados del caso Turrialba 2016-09-19."
+keywords:
+  - FALL3D
+  - MPI
+  - volcanic ash
+  - Washington VAAC
+  - reproducibility
